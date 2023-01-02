@@ -1,0 +1,80 @@
+{{#features}}
+	<li class="bg-gray item" style="width:100%;">
+		<div class="oc-item">	
+			<div class="title-feature"> 
+                Dynamiques entre 2010 et 2017 <br><span>pour la zone sélectionné</span>
+            </div>
+            <div class=""> 
+                <p><b>Couvert du sol</b></p>
+                <p class="d-flex"><span class="oc-date-2010 m-d">2010</span> <span>{{libcsn5_10}}<span></p>
+			    <p class="d-flex"><span class="oc-date-2017 m-d">2017</span> <span>{{libcsn5_17}}<span></p>
+                <br>            
+			    <p><b>Usage du sol</b></p>
+                <p class="d-flex"><span class="oc-date-2010 m-d">2010</span> <span>{{libusn5_10}}<span></p>
+			    <p class="d-flex"><span class="oc-date-2017 m-d">2017</span> <span>{{libusn5_17}}<span></p>
+            </div>
+            <div>
+                <br>   
+                <p><b>Dynamique sur la zone sélectionné :</b><br> <i class="fas fa-arrow-right"></i> <b>{{lib_dynami}}</b></p>	
+            </div>  
+		</div>		
+	</li>
+<style>
+
+    .m-d {
+        margin-right: 1rem;
+    }
+
+    .oc-date-2010 {
+        background-color: #ec752d;
+        font-size: 0.9rem!important;
+        color: white;
+        padding: 5px 9px;
+        border-radius: 1rem;
+    }
+
+    .oc-date-2017 {
+        background-color: #b9ce33;
+        font-size: 0.9rem!important;
+        color: white;
+        padding: 5px 9px;
+        border-radius: 1rem;
+    }
+
+    .d-flex {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .oc-item .title-feature {
+        color: #404040;
+        font-size: 21px;
+        line-height: 1;
+    }
+    .oc-item .title-feature span{
+        font-size: 16px!important;
+    }
+    #right-panel .active {
+        padding: 0!important;
+    }
+    .bg-gray {
+        background-color: #f1f1f1;
+    }
+    .oc-item {
+        padding: 2rem;
+    }
+    .oc-sources {
+        font-size: 0.9rem!important;
+        font-style: italic;
+        opacity: 0.8;
+        line-height: 0.8!important;
+    }
+    .oc-item p {
+        font-size: 1.1rem!important;
+    }
+</style>
+
+
+{{/features}}

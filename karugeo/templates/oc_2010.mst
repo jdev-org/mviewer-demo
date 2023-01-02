@@ -1,0 +1,63 @@
+{{#features}}
+	<li class="bg-gray item" style="width:100%;">
+		<div class="oc-item-2010">	
+			<p class="oc-date-2010"><span>{{millesime}}</span></p>
+			<div class="title-feature"> Occupation du sol <br><span>pour la zone sélectionné</span></div>
+			<p><b>Couvert du sol</b><br>{{libcsn5}}</p>
+			<p><b>Usage du sol</b><br>{{libusn5}}</p>
+			<p><b>Surface en ha</b><br>{{surface_ha}} ha</p>
+			<span class="oc-sources">{{sources}}</span>
+		</div>		
+	</li>
+<style>
+
+.oc-item-2010 .title-feature {
+    color: #ec752d;
+    font-size: 21px;
+	line-height: 1;
+}
+
+.oc-item-2010 .title-feature span{
+    font-size: 16px!important;
+}
+
+#right-panel .active {
+    padding: 0!important;
+}
+
+.bg-gray {
+    background-color: #f1f1f1;
+}
+
+.oc-item-2010 {
+    padding: 2rem;
+}
+
+.oc-sources {
+    font-size: 0.9rem!important;
+    font-style: italic;
+    opacity: 0.8;
+	line-height: 0.8!important;
+}
+
+p.oc-date-2010 {
+    text-align: end;
+}
+
+.oc-date-2010 span {
+    background-color: #ec752d;
+    font-size: 1.2rem!important;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 1rem;
+}
+
+.oc-item-2010 p {
+    font-size: 1.1rem!important;
+}
+
+
+</style>
+
+
+{{/features}}

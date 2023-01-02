@@ -1,0 +1,22 @@
+{{#features}}
+	<li class="centre item" style="width:100%;">
+		<div>	
+			<h3 class="title-feature"> <i class="fas fa-map-marker-alt"></i> {{nom}}</h3>
+		</div>		
+	</li>
+<style>
+
+h3.title-feature {
+    color: #404040;
+    font-size: 21px;
+}
+
+#right-panel .active {
+    padding: 0!important;
+}
+
+
+</style>
+
+
+{{/features}}
